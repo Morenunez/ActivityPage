@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 { font-size: 40px; }
+
+h4 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+p,
+h5 {
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.display-1 {
+  font-size: 85px;
+  font-weight: 200;
+  color:#fff;
+}
+
+.fitness { background:#B8FFE2; }
+.swimming { background:#98FBFF; }
+.spa { background:#F3F3F3; }
+.golf { background:#F6B3B8; }
+
+/* Header */
+#mainheader {
+  height: 100vh;
+  background: #0E0A1F;
+}
+
+/* Navbar */
+#navbar {
+  color: #fff;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#showcase h1 {
+  padding-bottom: 40px;
+}
+
+#showcase h5 {
+  /* font-size: 24px; */
+  font-weight: 500;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.showcase-row {
+  color: #0E0A1F;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.showcase-row img {
+  height: 100px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.card-left {
+  float: left;
+  width: 45%;
+}
+
+.card-right {
+  float: right;
+  width: 45%;
+}
+
+/* Activity */
+.activity {
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+
+.activity img {
+  height: 400px;
+}
+
+.activity .img-left {
+  float: left;
+  width: 40%;
+}
+
+.activity .img-right {
+  float: right;
+  width: 40%;
+}
+
+.activity .text-left {
+  float: left;
+  width: 60%;
+  padding-top: 70px;
+}
+
+.activity .text-right {
+  float: right;
+  width: 60%;
+  padding-top: 70px;
+}
+
+/* Footer */
+#mainfooter {
+  background: #0E0A1F;
+  text-align: center;
+  padding: 30px;
+}

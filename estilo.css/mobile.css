@@ -1,0 +1,70 @@
+/* Utility Classes */
+.display-1 {
+    font-size: 60px;
+  
+  }
+  
+  /* Header */
+  #mainheader {
+    height: 100%;
+  }
+  
+  /* Navbar */
+  #navbar .logo {
+    float: none;
+    text-align: center;
+  }
+  
+  #navbar ul {
+    float: none;
+  }
+  
+  #navbar ul li {
+    padding-left: 35px;
+  }
+  
+  #navbar ul li a{
+    padding: 20px 10px;
+  }
+  
+  /* Showcase */
+  #showcase {
+    padding: 20px 0;
+  }
+  
+  #showcase h1 {
+    padding-bottom: 20px;
+  }
+  
+  /* Activity */
+  .activity {
+    padding: 40px 10px;
+    text-align: center;
+  }
+  
+  .activity img {
+    height: 200px;
+    padding-top: 10px;
+  }
+  
+  .activity .img-left {
+    float: none;
+    width: auto;
+  }
+  
+  .activity .img-right {
+    float: none;
+    width: auto;
+  }
+  
+  .activity .text-left {
+    float: none;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .activity .text-right {
+    float: none;
+    width: 100%;
+    padding-top: 10px;
+  }
